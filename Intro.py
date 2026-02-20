@@ -13,3 +13,4 @@ edad = st.slider("Selecciona tu edad:", 0, 100, 25)
 st.write("Tu edad es:", edad)
 if edad > 50 :
     st.write("YA ESRES VIEJO")
+    else  st.write("YA ESRES JOVEN")
