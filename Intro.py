@@ -1,5 +1,5 @@
 import streamlit as st
-import PIL import Image
+from PIL import Image
 
 st.title("Mi Primera pagina Iteractiva")
 # Texto
