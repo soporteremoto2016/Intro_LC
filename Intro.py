@@ -19,4 +19,4 @@ elif edad < 49 :
 else : 
    st.write("YA ERES MUY VIEJO")
 image = Image.open('Imagen_Prueba.jpg')
-st.image(image, caption="Imagen exclusiva para mayores de 50")
+st.image(image, caption="Imagen exclusiva")
