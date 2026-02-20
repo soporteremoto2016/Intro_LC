@@ -17,7 +17,7 @@ if edad > 50 and edad < 80:
     image = Image.open('Imagen_Prueba.jpg')
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-    st.image(image, caption="Imagen exclusiva")
+        st.image(image, caption="Imagen exclusiva")
 
 elif edad < 49 :
     st.write("YA ERES JOVEN")
