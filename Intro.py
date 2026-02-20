@@ -12,4 +12,4 @@ if st.button("Saludar"):
 edad = st.slider("Selecciona tu edad:", 0, 100, 25)
 st.write("Tu edad es:", edad)
 if edad > 50 :
-st.write("YA ESRES VIEJO")
+    st.write("YA ESRES VIEJO")
