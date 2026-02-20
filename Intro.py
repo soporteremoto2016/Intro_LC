@@ -28,8 +28,8 @@ elif edad <= 49 :
 
 else : 
    st.write("YA ERES UN GEBEN EN LA EDAD DORADA")
-    image1 = Image1.open('JAF.jpg')
+    image2 = Image2.open('JAF.jpg')
     col1, col2, col3 = st.columns([1, 2, 1])
     with col1:
-        st.image(image1, caption="Imagen exclusiva")
+        st.image(image2, caption="Imagen exclusiva")
 
