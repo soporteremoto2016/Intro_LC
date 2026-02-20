@@ -28,7 +28,7 @@ elif edad <= 49 :
        st.image(image1, caption="Imagen exclusiva")
 
 else : 
-    st.write("YA ERES  FANTIASTICO EN LA EDAD DORADA")
+    st.write("YA ERES  FANTASTICO EN LA EDAD DORADA")
     image2 = Image.open('JAF.jpg')
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
