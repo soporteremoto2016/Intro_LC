@@ -14,12 +14,22 @@ edad = st.slider("Selecciona tu edad:", 0, 100, 25)
 st.write("Tu edad es:", edad)
 if edad >= 50 and edad < 80:
     st.write("ESTAS EN LA MEJOR EDAD")
-    image = Image.open('Imagen_Prueba.jpg')
+    image = Image.open('JJF.jpg')
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         st.image(image, caption="Imagen exclusiva")
 
 elif edad <= 49 :
     st.write("SIGUE ADELANTE AUN ERES MUY JOVEN")
+    image1 = Image1.open('JF.jpg')
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        st.image(image1, caption="Imagen exclusiva")
+
 else : 
    st.write("YA ERES UN GEBEN EN LA EDAD DORADA")
+    image1 = Image1.open('JAF.jpg')
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        st.image(image1, caption="Imagen exclusiva")
+
