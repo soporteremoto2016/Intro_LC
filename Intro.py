@@ -1,4 +1,5 @@
 import streamlit as st
+import PIL import Image
 
 st.title("Mi Primera pagina Iteractiva")
 # Texto
@@ -17,3 +18,4 @@ elif edad < 49 :
     st.write("YA ERES JOVEN")
 else : 
    st.write("YA ERES MUY VIEJO")
+image = Image.open('Imagen_Prueba.jpg')
